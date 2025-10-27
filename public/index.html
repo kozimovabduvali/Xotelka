@@ -9,7 +9,78 @@
 </head>
 
 <body>
-  hello world
+  <!-- Header -->
+  <header class="py-4.75 lg:py-8">
+    <nav class="container-base flex items-center justify-between">
+      <a href="#">
+        <img src="./assets/icons/logo.svg" alt="Logo" class="h-4.5 lg:h-7.5">
+      </a>
+
+      <!-- Links -->
+      <div class="max-lg:hidden flex items-center gap-6">
+        <a href="#" class="link-hover">
+          Возможности
+        </a>
+        <a href="#" class="link-hover">
+          Преимущества
+        </a>
+        <a href="#" class="link-hover">
+          Принцип работы
+        </a>
+        <a href="#" class="link-hover">
+          Философия
+        </a>
+        <a href="#" class="link-hover">
+          FAQ
+        </a>
+      </div>
+
+
+      <button class="max-lg:hidden main-btn">
+        Создать вишлист
+      </button>
+
+      <!-- Mobile Menu BTN -->
+      <button id="menu-btn" class="lg:hidden relative z-50">
+        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.5 8H19.5" stroke="#323232" stroke-width="1.5" stroke-linecap="round" />
+          <path d="M4.5 12H19.5" stroke="#323232" stroke-width="1.5" stroke-linecap="round" />
+          <path d="M4.5 16H19.5" stroke="#323232" stroke-width="1.5" stroke-linecap="round" />
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed top-0 left-0 z-30 lg:hidden size-full pt-14 translate-x-full transition duration-300">
+      <div class="bg-white size-full px-4 pt-24.5">
+        <div class="max-w-87 w-full mx-auto flex flex-col">
+          <!-- Links -->
+          <div class="text-2xl flex flex-col items-center justify-center gap-6 mb-34">
+            <a href="#" class="link-hover">
+              Возможности
+            </a>
+            <a href="#" class="link-hover">
+              Преимущества
+            </a>
+            <a href="#" class="link-hover">
+              Принцип работы
+            </a>
+            <a href="#" class="link-hover">
+              Философия
+            </a>
+            <a href="#" class="link-hover">
+              FAQ
+            </a>
+          </div>
+          <button class="main-btn w-full">
+            Создать вишлист
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
