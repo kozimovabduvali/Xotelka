@@ -1,4 +1,5 @@
 /*! tailwindcss v4.1.16 | MIT License | https://tailwindcss.com */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 @layer theme, base, components, utilities;
 @layer theme {
   :root, :host {
@@ -8,6 +9,8 @@
       "Courier New", monospace;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --font-inter-tight: 'Inter Tight', sans-serif;
+    --font-geologica: 'Geologica', sans-serif;
   }
 }
 @layer base {
@@ -159,3 +162,18 @@
   }
 }
 @layer utilities;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    overflow-x: hidden;
+    font-family: var(--font-inter-tight);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-geologica);
+  }
+  button {
+    cursor: pointer;
+  }
+}

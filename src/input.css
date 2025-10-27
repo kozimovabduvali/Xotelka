@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
+
+
+@theme {
+  --font-inter-tight: 'Inter Tight', sans-serif;
+  --font-geologica: 'Geologica', sans-serif;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth
+  }
+
+  body {
+    @apply font-inter-tight overflow-x-hidden
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-geologica
+  }
+
+  button {
+    @apply cursor-pointer
+  }
+}
