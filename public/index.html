@@ -11,17 +11,17 @@
 <body>
   <!-- Header -->
   <header class="py-4.75 lg:py-8">
-    <nav class="container-base flex items-center justify-between">
+    <nav class="container-base relative z-40 flex items-center justify-between">
       <a href="#">
         <img src="./assets/icons/logo.svg" alt="Logo" class="h-4.5 lg:h-7.5">
       </a>
 
       <!-- Links -->
       <div class="max-lg:hidden flex items-center gap-6">
-        <a href="#" class="link-hover">
+        <a href="#features" class="link-hover">
           Возможности
         </a>
-        <a href="#" class="link-hover">
+        <a href="#why-us" class="link-hover">
           Преимущества
         </a>
         <a href="#" class="link-hover">
@@ -57,10 +57,10 @@
         <div class="max-w-87 w-full mx-auto flex flex-col">
           <!-- Links -->
           <div class="text-2xl flex flex-col items-center justify-center gap-6 mb-34">
-            <a href="#" class="link-hover">
+            <a href="#features" class="link-hover">
               Возможности
             </a>
-            <a href="#" class="link-hover">
+            <a href="#why-us" class="link-hover">
               Преимущества
             </a>
             <a href="#" class="link-hover">
@@ -118,7 +118,8 @@
             </div>
 
             <div class="absolute top-1/2 -translate-y-1/3 z-10 left-0 md:-left-15">
-              <svg class="size-11 md:size-18" width="74" height="91" viewBox="0 0 74 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="size-11 md:size-18" width="74" height="91" viewBox="0 0 74 91" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M37 0L40.9552 13.1443C44.7928 25.8977 53.968 36.3846 66.1311 41.9193L74 45.5L66.1311 49.0807C53.968 54.6154 44.7928 65.1023 40.9552 77.8557L37 91L33.0448 77.8557C29.2072 65.1023 20.032 54.6154 7.86891 49.0807L0 45.5L7.8689 41.9193C20.032 36.3846 29.2072 25.8977 33.0448 13.1443L37 0Z"
                   fill="#4EB8E7" />
@@ -150,6 +151,262 @@
       </div>
 
       <img class="absolute z-0 top-0 left-0 size-full" src="./assets/images/hero-bg.png" alt="bg">
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-accent py-11 lg:py-22">
+      <div class="container-base">
+        <h2 class="font-extrabold text-center text-display-32 lg:text-5xl leading-[150%] mb-6 md:mb-12 lg:mb-18">
+          Какие функции есть в нашем боте?
+        </h2>
+
+        <div class="max-md:text-sm !leading-[150%] w-full max-w-168.5 mx-auto space-y-6">
+          <!-- 1 -->
+          <div class="flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Делиться с друзьями Вашими хотелками
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM17.2278 7.45647C16.8488 7.17296 16.3115 7.25033 16.0279 7.62933L10.8591 14.5396L7.90011 11.4965C7.57013 11.1571 7.02748 11.1494 6.68806 11.4794C6.34879 11.8093 6.34139 12.352 6.67132 12.6914L10.3297 16.4548C10.5045 16.6346 10.7495 16.7288 10.9997 16.7126C11.2499 16.6964 11.4807 16.5715 11.6309 16.3707L17.4007 8.65639C17.6842 8.27734 17.6068 7.74003 17.2278 7.45647Z"
+                fill="#4EB8E7" />
+            </svg>
+          </div>
+          <!-- 2 -->
+          <div class="flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Добавлять пользователей в избранное для быстрого доступа к их хотелкам
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM17.2278 7.45647C16.8488 7.17296 16.3115 7.25033 16.0279 7.62933L10.8591 14.5396L7.90011 11.4965C7.57013 11.1571 7.02748 11.1494 6.68806 11.4794C6.34879 11.8093 6.34139 12.352 6.67132 12.6914L10.3297 16.4548C10.5045 16.6346 10.7495 16.7288 10.9997 16.7126C11.2499 16.6964 11.4807 16.5715 11.6309 16.3707L17.4007 8.65639C17.6842 8.27734 17.6068 7.74003 17.2278 7.45647Z"
+                fill="#4EB8E7" />
+            </svg>
+          </div>
+          <!-- 3 -->
+          <div class="flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Бронировать хотелки друзей анонимно
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM17.2278 7.45647C16.8488 7.17296 16.3115 7.25033 16.0279 7.62933L10.8591 14.5396L7.90011 11.4965C7.57013 11.1571 7.02748 11.1494 6.68806 11.4794C6.34879 11.8093 6.34139 12.352 6.67132 12.6914L10.3297 16.4548C10.5045 16.6346 10.7495 16.7288 10.9997 16.7126C11.2499 16.6964 11.4807 16.5715 11.6309 16.3707L17.4007 8.65639C17.6842 8.27734 17.6068 7.74003 17.2278 7.45647Z"
+                fill="#4EB8E7" />
+            </svg>
+          </div>
+          <!-- 4 -->
+          <div class="flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Искать пользователя по номеру телефона или нику в Telegram прямо в боте
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0ZM17.2278 7.45647C16.8488 7.17296 16.3115 7.25033 16.0279 7.62933L10.8591 14.5396L7.90011 11.4965C7.57013 11.1571 7.02748 11.1494 6.68806 11.4794C6.34879 11.8093 6.34139 12.352 6.67132 12.6914L10.3297 16.4548C10.5045 16.6346 10.7495 16.7288 10.9997 16.7126C11.2499 16.6964 11.4807 16.5715 11.6309 16.3707L17.4007 8.65639C17.6842 8.27734 17.6068 7.74003 17.2278 7.45647Z"
+                fill="#4EB8E7" />
+            </svg>
+          </div>
+
+          <!-- 5 -->
+          <div class="opacity-65 flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Получать напоминания о важных датах
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_16_293)">
+                <path
+                  d="M12 0C11.16 0 10.2 0.12 9.36 0.24C8.76 0.48 8.28 1.08 8.4 1.68C8.52 2.28 9 2.64 9.6 2.64C9.72 2.64 9.72 2.64 9.84 2.64C10.56 2.52 11.28 2.4 12 2.4C17.28 2.4 21.6 6.72 21.6 12C21.6 17.28 17.28 21.6 12 21.6C6.72 21.6 2.4 17.28 2.4 12C2.4 11.28 2.52 10.56 2.64 9.84C2.76 9.24 2.4 8.64 1.68 8.4C1.08 8.28 0.48 8.76 0.24 9.36C0.12 10.2 0 11.16 0 12C0 18.6 5.4 24 12 24C18.6 24 24 18.6 24 12C24 5.4 18.6 0 12 0Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M3.11995 7.08002C3.47995 7.08002 3.83995 6.84002 4.07995 6.60002C4.79995 5.64002 5.63995 4.80002 6.59995 4.08002C7.19995 3.72002 7.31995 3.00002 6.95995 2.40002C6.59995 1.80002 5.75995 1.68002 5.27995 2.04002C4.07995 2.88002 2.99995 3.96002 2.15995 5.16002C1.67995 5.76002 1.79995 6.48002 2.39995 6.96002C2.63995 7.08002 2.87995 7.08002 3.11995 7.08002Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M12 6C11.28 6 10.8 6.48 10.8 7.2V12C10.8 12.36 10.92 12.6 11.16 12.84L14.76 16.44C15 16.68 15.36 16.8 15.6 16.8C15.84 16.8 16.2 16.68 16.44 16.44C16.92 15.96 16.92 15.24 16.44 14.76L13.2 11.52V7.2C13.2 6.48 12.72 6 12 6Z"
+                  fill="#9BC6DA" />
+              </g>
+              <defs>
+                <clipPath id="clip0_16_293">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <!-- 6 -->
+          <div class="opacity-65 flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Добавлять в календарь важные даты
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_16_293)">
+                <path
+                  d="M12 0C11.16 0 10.2 0.12 9.36 0.24C8.76 0.48 8.28 1.08 8.4 1.68C8.52 2.28 9 2.64 9.6 2.64C9.72 2.64 9.72 2.64 9.84 2.64C10.56 2.52 11.28 2.4 12 2.4C17.28 2.4 21.6 6.72 21.6 12C21.6 17.28 17.28 21.6 12 21.6C6.72 21.6 2.4 17.28 2.4 12C2.4 11.28 2.52 10.56 2.64 9.84C2.76 9.24 2.4 8.64 1.68 8.4C1.08 8.28 0.48 8.76 0.24 9.36C0.12 10.2 0 11.16 0 12C0 18.6 5.4 24 12 24C18.6 24 24 18.6 24 12C24 5.4 18.6 0 12 0Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M3.11995 7.08002C3.47995 7.08002 3.83995 6.84002 4.07995 6.60002C4.79995 5.64002 5.63995 4.80002 6.59995 4.08002C7.19995 3.72002 7.31995 3.00002 6.95995 2.40002C6.59995 1.80002 5.75995 1.68002 5.27995 2.04002C4.07995 2.88002 2.99995 3.96002 2.15995 5.16002C1.67995 5.76002 1.79995 6.48002 2.39995 6.96002C2.63995 7.08002 2.87995 7.08002 3.11995 7.08002Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M12 6C11.28 6 10.8 6.48 10.8 7.2V12C10.8 12.36 10.92 12.6 11.16 12.84L14.76 16.44C15 16.68 15.36 16.8 15.6 16.8C15.84 16.8 16.2 16.68 16.44 16.44C16.92 15.96 16.92 15.24 16.44 14.76L13.2 11.52V7.2C13.2 6.48 12.72 6 12 6Z"
+                  fill="#9BC6DA" />
+              </g>
+              <defs>
+                <clipPath id="clip0_16_293">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <!-- 7 -->
+          <div class="opacity-65 flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Играть с друзьями или коллегами в «Тайного Санту»
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_16_293)">
+                <path
+                  d="M12 0C11.16 0 10.2 0.12 9.36 0.24C8.76 0.48 8.28 1.08 8.4 1.68C8.52 2.28 9 2.64 9.6 2.64C9.72 2.64 9.72 2.64 9.84 2.64C10.56 2.52 11.28 2.4 12 2.4C17.28 2.4 21.6 6.72 21.6 12C21.6 17.28 17.28 21.6 12 21.6C6.72 21.6 2.4 17.28 2.4 12C2.4 11.28 2.52 10.56 2.64 9.84C2.76 9.24 2.4 8.64 1.68 8.4C1.08 8.28 0.48 8.76 0.24 9.36C0.12 10.2 0 11.16 0 12C0 18.6 5.4 24 12 24C18.6 24 24 18.6 24 12C24 5.4 18.6 0 12 0Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M3.11995 7.08002C3.47995 7.08002 3.83995 6.84002 4.07995 6.60002C4.79995 5.64002 5.63995 4.80002 6.59995 4.08002C7.19995 3.72002 7.31995 3.00002 6.95995 2.40002C6.59995 1.80002 5.75995 1.68002 5.27995 2.04002C4.07995 2.88002 2.99995 3.96002 2.15995 5.16002C1.67995 5.76002 1.79995 6.48002 2.39995 6.96002C2.63995 7.08002 2.87995 7.08002 3.11995 7.08002Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M12 6C11.28 6 10.8 6.48 10.8 7.2V12C10.8 12.36 10.92 12.6 11.16 12.84L14.76 16.44C15 16.68 15.36 16.8 15.6 16.8C15.84 16.8 16.2 16.68 16.44 16.44C16.92 15.96 16.92 15.24 16.44 14.76L13.2 11.52V7.2C13.2 6.48 12.72 6 12 6Z"
+                  fill="#9BC6DA" />
+              </g>
+              <defs>
+                <clipPath id="clip0_16_293">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <!-- 8 -->
+          <div class="opacity-65 flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Переносить свои хотелки из других сервисов в Хотелку-Бота
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_16_293)">
+                <path
+                  d="M12 0C11.16 0 10.2 0.12 9.36 0.24C8.76 0.48 8.28 1.08 8.4 1.68C8.52 2.28 9 2.64 9.6 2.64C9.72 2.64 9.72 2.64 9.84 2.64C10.56 2.52 11.28 2.4 12 2.4C17.28 2.4 21.6 6.72 21.6 12C21.6 17.28 17.28 21.6 12 21.6C6.72 21.6 2.4 17.28 2.4 12C2.4 11.28 2.52 10.56 2.64 9.84C2.76 9.24 2.4 8.64 1.68 8.4C1.08 8.28 0.48 8.76 0.24 9.36C0.12 10.2 0 11.16 0 12C0 18.6 5.4 24 12 24C18.6 24 24 18.6 24 12C24 5.4 18.6 0 12 0Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M3.11995 7.08002C3.47995 7.08002 3.83995 6.84002 4.07995 6.60002C4.79995 5.64002 5.63995 4.80002 6.59995 4.08002C7.19995 3.72002 7.31995 3.00002 6.95995 2.40002C6.59995 1.80002 5.75995 1.68002 5.27995 2.04002C4.07995 2.88002 2.99995 3.96002 2.15995 5.16002C1.67995 5.76002 1.79995 6.48002 2.39995 6.96002C2.63995 7.08002 2.87995 7.08002 3.11995 7.08002Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M12 6C11.28 6 10.8 6.48 10.8 7.2V12C10.8 12.36 10.92 12.6 11.16 12.84L14.76 16.44C15 16.68 15.36 16.8 15.6 16.8C15.84 16.8 16.2 16.68 16.44 16.44C16.92 15.96 16.92 15.24 16.44 14.76L13.2 11.52V7.2C13.2 6.48 12.72 6 12 6Z"
+                  fill="#9BC6DA" />
+              </g>
+              <defs>
+                <clipPath id="clip0_16_293">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          <!-- 9 -->
+          <div class="opacity-65 flex md:items-center justify-between gap-5 border-b border-gray pb-6">
+            <p>
+              Создавать неограниченное количество виш-листов
+            </p>
+
+            <svg class="shrink-0 size-5 lg:size-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_16_293)">
+                <path
+                  d="M12 0C11.16 0 10.2 0.12 9.36 0.24C8.76 0.48 8.28 1.08 8.4 1.68C8.52 2.28 9 2.64 9.6 2.64C9.72 2.64 9.72 2.64 9.84 2.64C10.56 2.52 11.28 2.4 12 2.4C17.28 2.4 21.6 6.72 21.6 12C21.6 17.28 17.28 21.6 12 21.6C6.72 21.6 2.4 17.28 2.4 12C2.4 11.28 2.52 10.56 2.64 9.84C2.76 9.24 2.4 8.64 1.68 8.4C1.08 8.28 0.48 8.76 0.24 9.36C0.12 10.2 0 11.16 0 12C0 18.6 5.4 24 12 24C18.6 24 24 18.6 24 12C24 5.4 18.6 0 12 0Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M3.11995 7.08002C3.47995 7.08002 3.83995 6.84002 4.07995 6.60002C4.79995 5.64002 5.63995 4.80002 6.59995 4.08002C7.19995 3.72002 7.31995 3.00002 6.95995 2.40002C6.59995 1.80002 5.75995 1.68002 5.27995 2.04002C4.07995 2.88002 2.99995 3.96002 2.15995 5.16002C1.67995 5.76002 1.79995 6.48002 2.39995 6.96002C2.63995 7.08002 2.87995 7.08002 3.11995 7.08002Z"
+                  fill="#9BC6DA" />
+                <path
+                  d="M12 6C11.28 6 10.8 6.48 10.8 7.2V12C10.8 12.36 10.92 12.6 11.16 12.84L14.76 16.44C15 16.68 15.36 16.8 15.6 16.8C15.84 16.8 16.2 16.68 16.44 16.44C16.92 15.96 16.92 15.24 16.44 14.76L13.2 11.52V7.2C13.2 6.48 12.72 6 12 6Z"
+                  fill="#9BC6DA" />
+              </g>
+              <defs>
+                <clipPath id="clip0_16_293">
+                  <rect width="24" height="24" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why us? -->
+    <section id="why-us" class="pt-12 lg:pt-26">
+      <div class="container-base">
+        <div class="w-full max-w-162.5 mx-auto text-center mb-10 lg:mb-14.5">
+          <h2 class="font-extrabold text-display-32 lg:text-5xl leading-[150%] mb-2 lg:mb-4">
+            Почему мы?
+          </h2>
+
+          <p class="md:text-xl lg:text-2xl leading-[150%] lg:px-10">
+            Мы не волшебники, но все это время делаем вид, что ими работаем ✨
+          </p>
+        </div>
+
+        <div class="max-lg:max-w-150 mx-auto grid lg:grid-cols-3 gap-6 mb-7.5 md:mb-14 lg:mb-24">
+          <!-- 1 -->
+          <div class="text-center">
+            <h3 class="text-secondary text-display-32 lg:text-5xl leading-[150%] font-black">
+              280 000 +
+            </h3>
+            <p class="lg:text-lg font-medium mb-4">
+              пользователей выбрали Хотелка-Бот
+            </p>
+
+            <div class="bg-accent rounded-xl py-3 px-4">
+              <img src="./assets/images/ayes.png" alt="eyes" class="size-6 mx-auto mb-1">
+              <p class="max-md:text-sm leading-[150%]">
+                И только 1 не сбылась — у админа до сих пор нет дома:(
+              </p>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="text-center">
+            <h3 class="text-secondary text-display-32 lg:text-5xl leading-[150%] font-black">
+              500 000 +
+            </h3>
+            <p class="lg:text-lg font-medium mb-4">
+              добавленных хотелок
+            </p>
+
+            <div class="bg-accent rounded-xl py-3 px-4">
+              <img src="./assets/images/ayes.png" alt="eyes" class="size-6 mx-auto mb-1">
+              <p class="max-md:text-sm leading-[150%]">
+                И только 1 не сбылась — у админа до сих пор нет дома:(
+              </p>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="text-center">
+            <h3 class="text-secondary text-display-32 lg:text-5xl leading-[150%] font-black">
+              4 года +
+            </h3>
+            <p class="lg:text-lg font-medium mb-4">
+              непрерывной работы сервиса
+            </p>
+
+            <div class="bg-accent rounded-xl py-3 px-4">
+              <img src="./assets/images/ayes.png" alt="eyes" class="size-6 mx-auto mb-1">
+              <p class="max-md:text-sm leading-[150%] lg:px-5">
+                Это дольше, чем учатся в бакалавриате
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <img src="./assets/images/gift.png" alt="gitf img" class="w-full max-w-76 mx-auto">
+      </div>
     </section>
   </main>
 
