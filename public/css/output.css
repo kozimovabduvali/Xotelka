@@ -830,6 +830,11 @@
       flex-direction: column;
     }
   }
+  .max-lg\:items-center {
+    @media (width < 64rem) {
+      align-items: center;
+    }
+  }
   .max-lg\:border-l {
     @media (width < 64rem) {
       border-left-style: var(--tw-border-style);
