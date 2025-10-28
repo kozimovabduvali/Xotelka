@@ -513,7 +513,8 @@
           Философия Хотелкинса
         </h2>
 
-        <div class="flex items-center justify-between gap-10 border border-secondary rounded-2xl p-8">
+        <div
+          class="max-md:text-center flex max-md:flex-col items-center justify-between gap-10 border border-secondary rounded-2xl p-8">
           <img src="./assets/images/f-gift.png" alt="gift" class="shrink-0 h-16 md:h-25 lg:h-37.5 object-contain">
           <div>
             <p class="max-md:text-sm lg:text-xl mb-4">
@@ -522,7 +523,7 @@
               Моё правило простое: хочешь — скажи. Остальное вселенная (или друзья) подкинет
             </p>
 
-            <div class="flex items-center gap-2">
+            <div class="flex max-md:flex-col-reverse items-center gap-2">
               <p class="leading-[150%] text-xl font-medium">
                 Ваш личный хранитель хотелок
               </p>
@@ -536,8 +537,294 @@
     <!-- Faq -->
     <section id="faq" class="mb-11 lg:mb-20.5">
       <div class="container-base">
+        <h2 class="font-extrabold text-center text-display-32 lg:text-5xl leading-[150%] mb-11 lg:mb-18">
+          F.A.Q.
+        </h2>
 
-      </div>
+
+        <!-- Accourdions -->
+        <div class="space-y-2">
+          <!-- 1 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8">
+              <span>
+                Зачем вообще нужен Хотелка Бот?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M15 11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22C15.4477 22 15 21.5523 15 21V11Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M16 22C15.4823 22 15.0562 21.6067 15.0049 21.1025L15 21V11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content hidden pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="bg-accent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8 !pb-0">
+              <span>
+                А как им пользоваться?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="bg-accent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8">
+              <span>
+                Мои друзья увидят список?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8 !pb-0">
+              <span>
+                Можно добавить ссылку из магазина?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8">
+              <span>
+                А если подарок уже купили?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M15 11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22C15.4477 22 15 21.5523 15 21V11Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M16 22C15.4823 22 15.0562 21.6067 15.0049 21.1025L15 21V11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content hidden pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8 !pb-0">
+              <span>
+                Это бесплатно?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8">
+              <span>
+                У меня миллион хотелок - это нормально?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M15 11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22C15.4477 22 15 21.5523 15 21V11Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M16 22C15.4823 22 15.0562 21.6067 15.0049 21.1025L15 21V11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content hidden pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8 !pb-0">
+              <span>
+                А кто вы вообще такие?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div>
+
+          <!-- 9 -->
+          <div class="bg-transparent rounded-2xl">
+            <button
+              class="accordion-btn font-bold lg:text-xl leading-[150%] w-full flex items-center justify-between gap-5 p-6 lg:p-8">
+              <span>
+                Что если мой парень увидит мой вишлист?
+              </span>
+
+              <svg class="shrink-0" width="32" height="32" viewBox="0 0 32 32" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M30 16C30 8.26801 23.732 2 16 2C8.26801 2 2 8.26801 2 16C2 23.732 8.26801 30 16 30V32C7.16344 32 0 24.8366 0 16C0 7.16344 7.16344 0 16 0C24.8366 0 32 7.16344 32 16C32 24.8366 24.8366 32 16 32V30C23.732 30 30 23.732 30 16Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M15 11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22C15.4477 22 15 21.5523 15 21V11Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M16 22C15.4823 22 15.0562 21.6067 15.0049 21.1025L15 21V11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V21C17 21.5523 16.5523 22 16 22Z"
+                  fill="#4EB8E7" />
+                <path
+                  d="M21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16C10 15.4477 10.4477 15 11 15L21 15Z"
+                  fill="#D9D9D9" />
+                <path
+                  d="M10 16C10 15.4823 10.3933 15.0562 10.8975 15.0049L11 15L21 15C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17L11 17C10.4477 17 10 16.5523 10 16Z"
+                  fill="#4EB8E7" />
+              </svg>
+            </button>
+
+            <div class="accourdion-content hidden pt-2 lg:pt-4 px-6 lg:px-8 pb-6 lg:pb-8">
+              <p>
+                Пишешь @ho4ubot, добавляешь хотелки — и наслаждаешься ощущением, что жизнь под контролем
+              </p>
+            </div>
+          </div </div>
+        </div>
     </section>
   </main>
 
