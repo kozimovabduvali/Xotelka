@@ -6,6 +6,8 @@
 @theme {
   --font-inter-tight: 'Inter Tight', sans-serif;
   --font-geologica: 'Geologica', sans-serif;
+  --text-display-56: 3.5rem;
+  /* 56px */
   /* Colors */
   --color-primary: #2B2B2B;
   --color-secondary: #4EB8E7;
