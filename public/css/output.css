@@ -405,6 +405,12 @@
   .max-w-168\.5 {
     max-width: calc(var(--spacing) * 168.5);
   }
+  .max-w-212 {
+    max-width: calc(var(--spacing) * 212);
+  }
+  .max-w-212\.5 {
+    max-width: calc(var(--spacing) * 212.5);
+  }
   .flex-shrink {
     flex-shrink: 1;
   }
