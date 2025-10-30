@@ -868,6 +868,11 @@
       text-align: center;
     }
   }
+  .max-lg\:left-0 {
+    @media (width < 64rem) {
+      left: calc(var(--spacing) * 0);
+    }
+  }
   .max-lg\:hidden {
     @media (width < 64rem) {
       display: none;
@@ -1381,6 +1386,11 @@
   .xl\:top-0 {
     @media (width >= 80rem) {
       top: calc(var(--spacing) * 0);
+    }
+  }
+  .xl\:\!right-0 {
+    @media (width >= 80rem) {
+      right: calc(var(--spacing) * 0) !important;
     }
   }
   .xl\:right-0 {
