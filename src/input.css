@@ -14,7 +14,6 @@
   --color-secondary: #4EB8E7;
   --color-accent: #E9F8FF;
   --color-gray: #CEE9F5
-
 }
 
 @layer base {
@@ -48,4 +47,26 @@
 
 @utility link-hover {
   @apply transition duration-300 hover:text-primary/75 hover:underline underline-offset-4
+}
+
+
+@utility gradient-main-card {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -10.06%, rgba(0, 0, 0, 0.21) 100%);
+}
+
+
+@utility gradient-main-card-2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) -31.13%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+@utility graident-overlay {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}
+
+.fade-in {
+  animation: fadeIn 0.2s ease-in-out forwards, scaleIn 0.2s ease-in-out forwards;
+}
+
+.no-scroll::-webkit-scrollbar {
+  @apply !size-0;
 }
